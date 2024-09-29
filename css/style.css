@@ -174,17 +174,22 @@ main{
 
 .right{
     margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 43px;
     flex-basis: 20%;
     position: relative;
 
 }
+.right .right-icons {
+    position: absolute;
+    right: 0px;
+    top: -40px;
+
+}
 .right .right-icons i{
     background-color: #a69f9f; 
-    position: absolute;
-    right: 20px;
-    bottom: 25px;
-
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 8px;
 }
 .right div>img.gamer{
     width: 300px;
